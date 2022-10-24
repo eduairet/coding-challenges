@@ -2,7 +2,7 @@
 
 
 def cesar(txt, offset, reverse=False):
-    '''Cyphers the word, '''
+    '''Cyphers the word, reverse decypher'''
     txt = txt.lower()
     abc = 'abcdefghijklmnopqrstuvwxyz'
     offset = offset if not reverse else -offset
